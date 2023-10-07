@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./autoriz.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@200&display=swap"
+    rel="stylesheet">
+<link rel="shortcut icon" href="/public_html/img/zlKg_4KLpDQ.jpg" type="image/jpg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.14V0 Авторизация</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="logo_div">
+            <img src="../../../img/zlKg_4KLpDQ.jpg" class="beer_image">
+            <h1 class="logo_name">
+                Погода
+            </h1>
+        </div>
+        <div class="main_section_in_autoriz">
+            <p class="hello_world">
+            <h1>Welcome</h1>
+            </p>
+            <div class="input_type_login">
+                <input type="text" placeholder="Введите id" class="text_input" id="username"><br>
+            </div>
+            <div class="input_type_password">
+                <input type="password" placeholder="Введите пароль" class="password_input" id="password"><br>
+            </div>
+            <div class="advice_item">
+                <button class="agree" onclick="checkLogin()">Подтвердить</button><br>
+            </div>
+        </div>
+    </div>
+    <script>
+        function checkLogin() {
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username === "5" && password === "ssxfcgj") {
+                window.location.href = "main.html";
+            } else {
+                alert("Неверные данные");
+
+            }
+        }
+    </script>
+</body>
+
+</html>

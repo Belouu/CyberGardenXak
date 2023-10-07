@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@200&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/public_html/img/zlKg_4KLpDQ.jpg" type="image/jpg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.14VO weather</title>
+</head>
+<body>
+    <div class="main_table">
+        <div class="data_base_1"> 
+            <p class="logo_data_base_item"><h1>Устройство 1</h1></p>
+            <p class="data_base_item">Температура: </p>
+            <p class="data_base_item">Влажность:</p>
+            <p class="data_base_item">Вибрация: </p>
+            <div class="reboot_data" id="reloadButton">Обновить информацию</div>
+        </div>
+        <div class="data_base_1"> 
+            <p class="logo_data_base_item"><h1>Устройство 2</h1></p>
+            <p class="data_base_item">Температура: </p>
+            <p class="data_base_item">Влажность:</p>
+            <p class="data_base_item">Вибрация: </p>    
+            <div class="reboot_data" id="reloadButton2">Обновить информацию</div>
+        </div>
+        
+        
+<script>
+    const reloadButton = document.getElementById("reloadButton");
+    reloadButton.addEventListener("click",function(){
+        location.reload();
+
+    });
+    const reloadButton2 = document.getElementById("reloadButton2");
+    reloadButton2.addEventListener("click",function(){
+        location.reload();
+
+    });
+</script>
+    </div>
+
+</body>
+</html>

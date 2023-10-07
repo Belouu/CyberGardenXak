@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.password_input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1; /* Firefox */
+    color: black;
+}
+
+.text_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1; /* Firefox */
+    color: black;
+}
+
+.text_input::placeholder:hover { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    background-color: white;
+}
+
+.main_section_in_autoriz {
+    width: 500px;
+    height: 400px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-color: #94bbe9;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    word-spacing: 140px;
+
+}
+
+.text_input {
+    text-align: center;
+    height: 30px;
+    width: 294px;
+    margin-top: 20px;
+}
+
+.input_type_login {
+    display: flex;
+    justify-content: center;
+}
+
+.input_type_password {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+.password_input {
+    text-align: center;
+    height: 30px;
+    width: 294px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+
+.text_input {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.advice_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.agree {
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.agree:hover {
+    cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+}
+
+.logo_div {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: calc(50% - 235px); 
+}
+
+.beer_image {
+    overflow: hidden;
+    border-radius: 500px;
+    width: 125px;
+    height: 125px;
+}
+
+.logo_name {
+    color: white;
+    padding-left: 50px;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Vertically center the items */
+    align-items: center; /* Horizontally center the items */
+    min-height: 250px;
+    border: 1px solid black; /* Optional: Add a border for visualization */
+}
